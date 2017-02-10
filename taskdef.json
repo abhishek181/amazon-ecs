@@ -1,9 +1,9 @@
 {
-    "family": "sample",
+    "family": "java-sample",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "sample",
+            "name": "java-sample",
             "cpu": 10,
             "memory": 256,
             "essential": true,
