@@ -1,9 +1,9 @@
 {
-    "family": "Docker",
+    "family": "Docker-demo",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "Docker",
+            "name": "Docker-demo",
             "cpu": 10,
             "memory": 256,
             "essential": true,
